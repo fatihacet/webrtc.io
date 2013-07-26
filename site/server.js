@@ -27,6 +27,7 @@ app.get('/webrtc.io.js', function(req, res) {
   res.sendfile(__dirname + '/webrtc.io.js');
 });
 
+/*
 webRTC.rtc.on('chat_msg', function(data, socket) {
   var roomList = webRTC.rtc.rooms[data.room] || [];
 
@@ -52,3 +53,4 @@ webRTC.rtc.on('chat_msg', function(data, socket) {
     }
   }
 });
+*/
