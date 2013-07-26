@@ -1,9 +1,6 @@
 #webrtc.io-demo
-==============
 
-You can have a look at the [demo](http://webrtc.dennis.is/)
-
-##Instructions on how to setup the demo:
+###Instructions on how to setup the demo:
 
 Run in your terminal
 
@@ -38,7 +35,7 @@ go to [localhost:8080](http://localhost:8080)
 click allow to see your camera and the connection will be made between your to open windows.
 
 
-##For instructions on how to start developing with webRTC.io
+###For instructions on how to start developing with webRTC.io
 
 go to [https://github.com/webRTC/webRTC.io](https://github.com/webRTC/webRTC.io) and read the instructions.
 
