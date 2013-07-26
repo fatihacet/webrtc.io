@@ -83,7 +83,7 @@ function init() {
     var clone = cloneVideo('you', socketId);
     document.getElementById(clone.id).setAttribute("class", "");
     rtc.attachStream(stream, clone.id);
-    subdivideVideos();
+    // subdivideVideos();
   });
   rtc.on('disconnect stream', function(data) {
     console.log('remove ' + data);
@@ -91,6 +91,6 @@ function init() {
   });
 }
 
-window.onresize = function(event) {
-  subdivideVideos();
-};
+// window.onresize = function(event) {
+//   subdivideVideos();
+// };
